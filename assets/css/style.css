@@ -1,16 +1,57 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: url(../images/grunge_wall.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    overflow: auto;
 }
 
-header h1 {
+
+/* header h1 {
     background: #4aaaa5;
     color: white;
     display: inline-block;
     padding: 20px;
     font-size: 30px;
     position: relative;
-    top: 20px;
+    top:20px
+} */
+
+nav a {
+    color: #777777;
+    border-right: 2px solid #cccccc;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.container {
+    background: white;
+    width: 960px;
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    padding: 20px 0px 0px 0px;
+}
+
+.box {
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+    width: 300px
+}
+
+footer {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
 }
